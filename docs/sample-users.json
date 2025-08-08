@@ -1,0 +1,142 @@
+{
+  "admin_users": [
+    {
+      "name": "John Admin",
+      "email": "admin@dps.gov.ph",
+      "password": "admin123",
+      "role": "Super Administrator",
+      "permissions": "Full system access"
+    },
+    {
+      "name": "Maria Santos",
+      "email": "system.admin@dps.gov.ph",
+      "password": "system123",
+      "role": "System Administrator",
+      "permissions": "User management, application review"
+    },
+    {
+      "name": "Carlos Rodriguez",
+      "email": "dept.admin@dps.gov.ph",
+      "password": "dept123",
+      "role": "Department Administrator",
+      "permissions": "Application processing, reporting"
+    }
+  ],
+  "applicant_users": [
+    {
+      "user": {
+        "name": "Juan Dela Cruz",
+        "email": "juan.delacruz@email.com",
+        "password": "applicant123"
+      },
+      "applicant": {
+        "firstname": "Juan",
+        "lastname": "Dela Cruz",
+        "email": "juan.delacruz@email.com",
+        "age": "25",
+        "sex": "Male",
+        "height": "5'8\"",
+        "weight": "70kg",
+        "birthdate": "1998-05-15",
+        "status": "Single",
+        "citizenship": "Filipino",
+        "barangay": "San Antonio",
+        "municipality": "Quezon City",
+        "province": "Metro Manila",
+        "country": "Philippines"
+      },
+      "parents": {
+        "mother_firstname": "Ana",
+        "mother_lastname": "Dela Cruz",
+        "mother_occupation": "Teacher",
+        "father_firstname": "Jose",
+        "father_lastname": "Dela Cruz",
+        "father_occupation": "Engineer"
+      },
+      "application": {
+        "status": "PENDING"
+      }
+    },
+    {
+      "user": {
+        "name": "Maria Garcia",
+        "email": "maria.garcia@email.com",
+        "password": "applicant123"
+      },
+      "applicant": {
+        "firstname": "Maria",
+        "lastname": "Garcia",
+        "email": "maria.garcia@email.com",
+        "age": "28",
+        "sex": "Female",
+        "height": "5'5\"",
+        "weight": "55kg",
+        "birthdate": "1995-08-22",
+        "status": "Married",
+        "citizenship": "Filipino",
+        "barangay": "Makati",
+        "municipality": "Makati City",
+        "province": "Metro Manila",
+        "country": "Philippines"
+      },
+      "parents": {
+        "mother_firstname": "Carmen",
+        "mother_lastname": "Garcia",
+        "mother_occupation": "Nurse",
+        "father_firstname": "Roberto",
+        "father_lastname": "Garcia",
+        "father_occupation": "Police Officer"
+      },
+      "application": {
+        "status": "PENDING"
+      }
+    },
+    {
+      "user": {
+        "name": "Pedro Santos",
+        "email": "pedro.santos@email.com",
+        "password": "applicant123"
+      },
+      "applicant": {
+        "firstname": "Pedro",
+        "lastname": "Santos",
+        "email": "pedro.santos@email.com",
+        "age": "30",
+        "sex": "Male",
+        "height": "5'10\"",
+        "weight": "75kg",
+        "birthdate": "1993-12-10",
+        "status": "Single",
+        "citizenship": "Filipino",
+        "barangay": "Tondo",
+        "municipality": "Manila",
+        "province": "Metro Manila",
+        "country": "Philippines"
+      },
+      "parents": {
+        "mother_firstname": "Elena",
+        "mother_lastname": "Santos",
+        "mother_occupation": "Business Owner",
+        "father_firstname": "Manuel",
+        "father_lastname": "Santos",
+        "father_occupation": "Retired"
+      },
+      "application": {
+        "status": "ACCEPTED",
+        "interview_date": "2025-08-15",
+        "interview_time": "09:00:00"
+      }
+    }
+  ],
+  "metadata": {
+    "created_at": "2025-08-07",
+    "version": "1.0",
+    "description": "Sample user data for DPS System testing",
+    "notes": [
+      "All passwords are hashed using Laravel's bcrypt",
+      "Email addresses are fictional for testing purposes",
+      "Personal information is sample data only",
+      "Application statuses are for demonstration"
+    ]
+  }
+}
